@@ -1,0 +1,131 @@
+@media(min-width: 576px) {
+    .admin_overview_card {
+        width: calc(50% - 12px);
+    }
+
+    .adminview_viewtabBtn_wrapper {
+        flex-wrap: nowrap;
+    }
+
+    .generic_viewWrapper {
+        flex-direction: row;
+    }
+
+    .generic_view_dropdown {
+        width: 190px;
+    }
+
+    .generic_viewtab {
+        width: calc(100% - 214px);
+    }
+
+    .SupplierDetails_card {
+        width: calc(33.33% - 8px);
+    }
+
+    .section_heading_wrapper {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .medicine_order_item {
+        width: calc(50% - 12px);
+    }
+}
+
+@media(min-width: 768px) {
+    .admin_overview_card {
+        width: calc(33.33% - 16px);
+    }
+
+    .section_padding {
+        padding: 15px 0px;
+    }
+
+    .adminview_viewtab_item {
+        width: calc(50% - 12px);
+    }
+
+    .SupplierDetails_card {
+        width: calc(25% - 9px);
+    }
+
+    .section_headingText {
+        font-size: 24px;
+    }
+
+    .medicineOrder_search {
+        max-width: 430px;
+    }
+
+    .medicine_order_item {
+        width: calc(33.33% - 16px);
+    }
+
+}
+
+@media(min-width: 1024px) {
+    .toggle_nav {
+        display: none;
+    }
+
+    .admin_main {
+        width: calc(100% - 300px);
+        margin-left: 300px;
+    }
+
+    .sidebar_section {
+        left: 0px;
+    }
+
+    .section_padding {
+        padding: 25px 0px;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .admin_overview_card {
+        width: calc(25% - 18px);
+    }
+
+    .SupplierDetails_card {
+        width: calc(20% - 10px);
+    }
+
+    .add_forminput_item {
+        width: calc(50% - 12px);
+    }
+
+    .medicine_order_item {
+        width: calc(25% - 18px);
+    }
+}
+
+@media(min-width: 1400px) {
+    .admin_overview_card {
+        width: calc(20% - 20px);
+    }
+
+    .SupplierDetails_card {
+        width: calc(17% - 25px);
+    }
+
+    .SupplierDetails_wrapper {
+        gap: 24px;
+    }
+
+    .medicine_order_item {
+        width: calc(20% - 20px);
+    }
+}
+
+@media(min-width: 1500px) {
+    .adminview_viewtab_item {
+        width: calc(25% - 12px);
+    }
+
+    .generic_view {
+        width: calc(50% - 24px);
+    }
+}

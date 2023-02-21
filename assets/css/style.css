@@ -1,0 +1,922 @@
+/* sidebar section */
+
+.sidebar_section {
+    width: 300px;
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    height: 100vh;
+    z-index: 1024;
+    background: var(--mainColor);
+    transition: var(--transition);
+}
+
+.showNav.sidebar_section {
+    left: 0px;
+}
+
+.sidebar_content {
+    position: relative;
+}
+
+.sidebar_logo {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar_logo_inner {
+    width: 160px;
+    display: flex;
+    height: 50px;
+}
+
+.sidebar_logo_inner img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.sidebar_wrapper {
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    padding: 20px 0px;
+}
+
+.sidebar_navList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar_nav_item {
+    position: relative;
+}
+
+.sidebar_nav_sub {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s;
+    visibility: hidden;
+}
+
+.showSubNav .sidebar_nav_sub {
+    max-height: 400px;
+    visibility: visible;
+}
+
+.sidebar_nav_sub ul {
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 15px;
+    background: rgb(255 255 255 / 10%);
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: var(--transition);
+    border-radius: 5px;
+}
+
+.sidebar_nav_sub ul li a {
+    padding: 7px 10px;
+    background: rgb(253 206 82 / 10%);
+    display: block;
+    border-radius: 5px;
+    color: var(--globalColor);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sidebar_nav_sub ul li a:hover {
+    background: rgb(253 206 82 / 40%);
+}
+
+.sidebar_nav_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 9px 15px 9px 15px;
+    background: rgb(0 0 0 / 10%);
+}
+
+.sidebar_nav_link:hover {
+    background-color: rgb(0 0 0 / 40%);
+}
+
+.showSubNav .sidebar_nav_link {
+    background-color: rgb(0 0 0 / 40%);
+}
+
+.sidebar_link_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.sidebar_link_icon {
+    width: 22px;
+}
+
+.sidebar_link_icon img {
+    width: 100%;
+    display: block;
+}
+
+.sidebar_link_text {
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--globalColor);
+    display: flex;
+}
+
+.sidebarlink_arrow {
+    display: flex;
+}
+
+/* admin main */
+
+.admin_main {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.header_section {
+    background: var(--mainColor);
+    padding: 15px 24px;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.header_info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.headerinfo_profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.headerinfo_profile_name {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--globalColor);
+}
+
+.headerinfo_profile_image {
+    width: 40px;
+    height: 36px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.headerinfo_profile_image img {
+    width: 100%;
+    display: block;
+}
+
+.adminmain_content {
+    margin: 40px 24px;
+}
+
+/* overveiw section */
+
+.admin_overview {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.admin_overview_card {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.adimnoverview_card_content {
+    padding: 29px 20px;
+}
+
+.admin_overviewCard_image {
+    height: 65px;
+    width: 100%;
+}
+
+.admin_overviewCard_image img {
+    margin: 0px auto 15px;
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.admin_overviewCard_total {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    color: var(--textColor);
+    margin-bottom: 15px;
+
+}
+
+.admin_overviewCard_title {
+    font-size: 18px;
+    text-align: center;
+    color: var(--textColor);
+}
+
+.adminview_section {
+    position: relative;
+}
+
+.adminview_wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.adminview_viewtab_item,
+.generic_view {
+    background: var(--globalColor);
+    filter: drop-shadow(0px 9px 32px rgba(0, 0, 0, 0.1));
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+.adminview_viewtab_header {
+    padding: 20px 25px;
+    background: var(--mainColor);
+    border-radius: 5px;
+}
+
+.adminview_viewtab_header h1 {
+    font-size: 24px;
+    color: var(--globalColor);
+    font-weight: 500;
+}
+
+.adminview_viewtab {
+    padding: 20px 15px;
+}
+
+.adminview_viewtabBtn_wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    border: navajowhite;
+    flex-wrap: wrap;
+}
+
+.adminview_viewtabBtn {
+    cursor: pointer;
+    border: none;
+    display: block;
+    background: #E2E5E6 !important;
+    width: 100%;
+    padding: 20px 12px;
+    text-align: center;
+    box-shadow: 2px 10px 32px rgba(19, 112, 178, 0.12);
+    border-radius: 5px !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 12px;
+    color: #3a3333;
+}
+
+.nav-tabs .adminview_viewtabBtn.nav-link.active {
+    border: none !important;
+    background: var(--globalColor) !important;
+}
+
+.adminview_viewtabcontent ul {
+    padding: 23px 0px;
+}
+
+.adminview_viewtabcontent ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.adminview_viewtabcontent ul li span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.generic_view {
+    min-height: 396px;
+}
+
+.generic_viewcontent {
+    padding: 17px 20px;
+}
+
+.generic_view_title {
+    font-size: 24px;
+    color: var(--mainColor);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.generic_viewWrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.generic_view_dropdown {
+    width: 100%;
+}
+
+.generic_viewBtn_inner {
+    padding: 7px 10px;
+    border: 1px dashed #FDCE52;
+}
+
+.generic_viewBtn {
+    padding: 7px;
+    border: 1px dashed #FDCE52;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--mainColor);
+
+}
+
+
+.generic_viewdropdown_list {
+    padding: 10px 5px;
+    background: var(--globalColor);
+    filter: drop-shadow(0px 10px 32px rgba(0, 0, 0, 0.1));
+    display: none;
+}
+
+.genericViewToggle.generic_viewdropdown_list {
+    display: block;
+}
+
+.search_genericInput {
+    height: 33px;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    color: var(--textColor);
+    outline: none;
+    border: 1px solid var(--textColor);
+    margin-bottom: 5px;
+    background: var(--globalColor);
+}
+
+.generic_viewdropdown_list ul {
+    max-height: 200px;
+    overflow: auto;
+    min-height: 200px;
+    display: block;
+}
+
+
+.generic_viewdropdown_list ul::-webkit-scrollbar {
+    width: 5px;
+}
+
+.generic_viewdropdown_list ul::-webkit-scrollbar-thumb {
+    background: var(--mainColor);
+    border-radius: 10px;
+}
+
+.generic_viewdropdown_list ul li {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--mainColor);
+    margin-bottom: 5px;
+    background: var(--globalColor);
+    cursor: pointer;
+    width: 100%;
+}
+
+.generic_viewdropdown_list ul li span {
+    font-size: 12px;
+    color: var(--mainColor);
+}
+
+.generic_viewtab {
+    width: 100%;
+}
+
+.generic_viewtab_item {
+    position: relative;
+}
+
+.generic_viewtabItem_table {
+    overflow-x: auto;
+    position: relative;
+}
+
+.generic_viewtabItem_table table {
+    min-width: 612px;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.generic_viewtabItem_table table tr th,
+.generic_viewtabItem_table table tr td {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 10px;
+    color: var(--textColor);
+}
+
+.generic_viewtabItem_table table tr th {
+    color: var(--mainColor);
+    font-weight: 700;
+}
+
+/* Supplier_details */
+
+.Supplier_details {
+    border-radius: 5px;
+    background: var(--globalColor);
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
+
+}
+
+.Supplier_details_content {
+    padding: 20px 30px;
+}
+
+.section_heading {
+    margin-bottom: 15px;
+}
+
+.section_headingText {
+    font-size: 18px;
+    color: var(--mainColor);
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.SupplierDetails_wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.SupplierDetails_card {
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.SupplierDetails_card_wrapper {
+    padding: 15px 25px;
+}
+
+.SupplierDetails_card_CompName {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--globalColor);
+    margin-bottom: 8px;
+}
+
+.supplierDetails_card_selalName,
+.supplierDetails_card_number {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--globalColor);
+}
+
+
+.SupplierDetails_card_footer {
+    margin-top: 10px;
+}
+
+
+.SupplierDetails_cardBtn_wraqpper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.SupplierDetails_cardBtn {
+    display: grid;
+    place-content: center;
+    width: 33px;
+    height: 22px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.SupplierDetails_cardBtn button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    outline: none;
+    background: transparent;
+}
+
+.SupplierDetails_cardBtn button svg {
+    display: flex;
+}
+
+/* add form */
+
+.add_form_content {
+    position: relative;
+}
+
+.addForm_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.add_forminput_item {
+    width: 100%;
+}
+
+.add_forminput_item label {
+    font-size: 18px;
+    color: var(--heading);
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.add_forminput_item label sup {
+    color: #FC5338;
+}
+
+.add_forminput_inner {
+    width: 100%;
+}
+
+.add_forminput_inner input,
+.add_forminput_inner select {
+    background: rgb(19 112 178 / 20%);
+    border-radius: 5px;
+    color: rgba(19, 112, 178, 0.51);
+}
+
+.add_forminput_inner input::placeholder {
+    font-size: 18px;
+    text-align: left;
+    color: rgba(19, 112, 178, 0.51);
+}
+
+.input_cotrol {
+    height: 56px;
+    width: 100%;
+    display: block;
+    border: transparent;
+    outline: none;
+    background: transparent;
+    padding: 0px 20px;
+}
+
+select {
+    appearance: none;
+    background-image: url(../image/select.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 97% 50% !important;
+    background-size: 16px !important;
+}
+
+/* file */
+
+.file {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    height: 56px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.file input {
+    min-width: 100%;
+    margin: 0;
+    opacity: 0;
+}
+
+.file-custom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    height: 100%;
+    padding: 0 1rem;
+    line-height: 1.5;
+    color: var(--heading);
+    background: rgb(19 112 178 / 20%);
+    user-select: none;
+}
+
+.file-custom:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 6;
+    display: grid;
+    place-content: center;
+    content: "Image";
+    height: 100%;
+    width: 150px;
+    line-height: 1.5;
+    color: rgba(19, 112, 178, 0.51);
+    background-repeat: no-repeat;
+    background-image: url(../image/file-image.png);
+    background-position: 20px 50%;
+}
+
+/* submit btn */
+
+.add_formBtn_wrapper {
+    text-align: left;
+}
+
+.add_formBtn_wrapper button {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--globalColor);
+    line-height: 28px;
+    max-width: 270px;
+    width: 100%;
+    height: 56px;
+    background: var(--mainColor);
+}
+
+.add_formBtn_wrapper button:hover {
+    background-color: var(--mainColor);
+    color: var(--globalColor);
+}
+
+/* view user */
+
+.main_table {
+    width: 100%;
+    background: var(--globalColor);
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    margin: 0px auto;
+}
+
+.view_user_table {
+    max-width: 960px;
+}
+
+.admin_table_content {
+    overflow-x: auto;
+    position: relative;
+}
+
+.admin_table {
+    min-width: 768px;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.admin_table tr th,
+.admin_table tr td {
+    font-size: 16px;
+    color: var(--textColor);
+    padding: 10px 15px;
+}
+
+.admin_table tr th {
+    color: var(--mainColor);
+}
+
+.admin_actionBtn_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.admin_actionBtn {
+    position: relative;
+}
+
+.admin_actionBtn button {
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    color: var(--globalColor);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    display: grid;
+    place-content: center;
+}
+
+.view_customer_table {
+    max-width: 1170px;
+}
+
+.view_customer_table .admin_table {
+    min-width: 790px;
+}
+
+option {
+    background: var(--globalColor);
+}
+
+.view_generic_table {
+    max-width: 650px;
+}
+
+.view_generic_table .admin_table {
+    min-width: 500px;
+}
+
+.view_medicineTable {
+    max-width: 100%;
+}
+
+.view_medicineTable .admin_table {
+    min-width: 1080px;
+}
+
+.view_roleTable {
+    max-width: 520px;
+}
+
+.view_roleTable .admin_table {
+    min-width: 400px;
+}
+
+.view_cateGoryTable {
+    max-width: 768px;
+}
+
+.view_cateGoryTable .admin_table {
+    min-width: 700px;
+}
+
+.view_SupplierTable {
+    max-width: 1090px;
+}
+
+.view_SupplierTable .admin_table {
+    min-width: 1000px;
+}
+
+.section_heading_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px 20px;
+}
+
+.section_heading_title {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.medicineOrder_search {
+    max-width: 300px;
+    width: 100%;
+}
+
+.medicineOrder_search_inner {
+    width: 100%;
+}
+
+.medicineOrder_search_inner input {
+    border: 2px solid #FE8D7B;
+    border-radius: 5px;
+}
+
+.medicineOrder_search_inner input::placeholder {
+    color: rgb(112 112 112 / 20%);
+}
+
+/* medicine order wrapper */
+
+.medicine_order_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.medicine_order_item {
+    width: 100%;
+    position: relative;
+}
+
+.medicine_content_content {
+    padding: 20px 20px 60px;
+    border-radius: 5px;
+    background: var(--globalColor);
+    box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.1);
+}
+
+.medicine_orderItem_image {
+    width: 90px;
+    margin: 0px auto 20px;
+}
+
+.medicine_orderItem_image img {
+    width: 100%;
+    display: block;
+}
+
+.medicineOrder_name {
+    font-size: 16px;
+    text-align: left;
+    color: var(--textColor);
+    text-align: center;
+
+}
+
+.medicineOrder_button {
+    text-align: center;
+    position: relative;
+    margin-top: -25px;
+}
+
+.medicineOrder_buttonInner {
+    display: inline-block;
+}
+
+.medicineOrder_buttonInner button {
+    border: 1px solid transparent;
+    outline: none;
+    background: var(--mainColor);
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: var(--globalColor);
+}
+
+.medicine_orderList {
+    max-width: 100%;
+}
+
+.medicine_orderList .admin_table {
+    min-width: 920px;
+}
+
+.productSort_table {
+    max-width: 100%;
+}
+
+.productSort_table .admin_table {
+    min-width: 1232px;
+}
+
+.productSort_table .admin_table tr:nth-child(odd) td {
+    color: red;
+}

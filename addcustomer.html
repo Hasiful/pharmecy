@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BongIt Ltd </title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- 
+    ================================
+        main admin
+    ================================
+    -->
+
+    <div class="root">
+
+        <!-- sidebar section -->
+        <aside class="sidebar_section" id="siderbar_main">
+            <!-- content -->
+            <div class="sidebar_content">
+                <!-- logo here -->
+                <div class="sidebar_logo">
+                    <a href="./index.html" class="sidebar_logo_inner">
+                        <img src="assets/image/demologo.png" alt="">
+                    </a>
+                </div>
+                <!-- sidebar wrapper -->
+                <div class="sidebar_wrapper">
+                    <!-- sidebar nav -->
+                    <nav class="sidebar_nav">
+                        <!-- sidebar navlist -->
+                        <ul class="sidebar_navList">
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/home.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Home</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/management.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">User Management</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Users</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Add Users Role</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View All Users</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/customer.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Customers</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Customers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View Customers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/categories.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Categories</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Categories</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View Categories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/medicine generic.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine Generic</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href=""> Add Medicine </a>
+                                        </li>
+
+                                        <li>
+                                            <a href=""> View Medicine </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/supplier.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine Supplier</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href=""> Add Supplier </a>
+                                        </li>
+
+                                        <li>
+                                            <a href=""> View Supplier </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/mediciine.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Medicine</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View Medicine</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Restock Medicine</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/mdicine order.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine Order</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Place Order</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Order List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Return Order</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/expire info.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Product Expire Info</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Expire within A month list</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Already Expired List</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/stocks.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Product Stock List</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Stock List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Short List</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/sales.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Sales</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">New Sales</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Sales History</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Refund History</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/invoice.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Supplier Invoice</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Supplier Invoice</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Total Supplier Invoice List</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/report.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Report</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Due Customers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Sell & Purchase Report</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Top Sell List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Supplier Payment Due</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Profit/Loss</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Today Sell</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Yesterday Sell</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Yearly Sell</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Custom Date Wise Sell</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/settings.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Setting</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Company Details</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Payment Methods</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+        <!-- siderbar section end -->
+
+        <div class="admin_main">
+
+            <!-- header section -->
+            <header class="header_section">
+                <!-- wrapper -->
+                <div class="header_wrapper">
+                    <!-- header toggler -->
+                    <div class="toggle_nav" id="dashboard_toggle">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <!-- info -->
+                    <div class="header_info">
+                        <!-- notification -->
+                        <div class="header_notification">
+                            <span class="header_notification_icon"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                    height="22" viewBox="0 0 22 22">
+                                    <path id="Icon_material-notifications-active"
+                                        data-name="Icon material-notifications-active"
+                                        d="M9.168,5.533,7.591,3.919a11.842,11.842,0,0,0-4.546,8.856H5.252A9.582,9.582,0,0,1,9.168,5.533Zm13.67,7.243h2.207A11.914,11.914,0,0,0,20.5,3.919L18.933,5.533a9.639,9.639,0,0,1,3.906,7.243Zm-2.174.564c0-3.464-1.809-6.363-4.965-7.13V5.442a1.655,1.655,0,1,0-3.31,0v.767c-3.167.767-4.965,3.655-4.965,7.13v5.641L5.219,21.237v1.128H22.871V21.237l-2.207-2.256Zm-6.62,12.41a1.892,1.892,0,0,0,.441-.045,2.251,2.251,0,0,0,1.589-1.331,2.31,2.31,0,0,0,.165-.88H11.827A2.248,2.248,0,0,0,14.045,25.75Z"
+                                        transform="translate(-3.045 -3.75)" fill="#fff" />
+                                </svg>
+                            </span>
+                        </div>
+
+                        <!-- profile -->
+                        <div class="headerinfo_profile">
+                            <p class="headerinfo_profile_name">Admin</p>
+                            <div class="headerinfo_profile_image">
+                                <img src="assets/image/user.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- header toggoler -->
+                </div>
+            </header>
+
+            <!-- content -->
+            <div class="adminmain_content">
+                <!-- heading -->
+                <div class="section_heading">
+                    <h3 class="section_headingText">Customers(Add Customer)</h3>
+                </div>
+
+                <!-- add form -->
+                <div class="add_form_content">
+
+                    <!-- form -->
+                    <form action="" class="add_form">
+
+                        <!-- Add for wrapper -->
+                        <div class="addForm_wrapper">
+                            <!-- item -->
+                            <div class="add_forminput_item">
+                                <label for="" class="">Customer Name<sup>*</sup></label>
+                                <!-- input inner -->
+                                <div class="add_forminput_inner">
+                                    <input type="text" placeholder="Enter Customer Name" class="input_cotrol">
+                                </div>
+                            </div>
+
+                            <!-- item -->
+                            <div class="add_forminput_item">
+                                <label for="" class="">Mobile Number<sup>*</sup></label>
+                                <!-- input inner -->
+                                <div class="add_forminput_inner">
+                                    <input type="number" placeholder="Enter Mobile Number" class="input_cotrol">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add for wrapper -->
+                        <div class="addForm_wrapper">
+
+                            <!-- item -->
+                            <div class="add_forminput_item">
+                                <label for="" class="">Email<sup>*</sup></label>
+                                <!-- input inner -->
+                                <div class="add_forminput_inner">
+                                    <input type="email" placeholder="Enter Email" class="input_cotrol">
+                                </div>
+                            </div>
+
+                            <!-- item -->
+                            <div class="add_forminput_item">
+                                <label for="" class="">Address<sup>*</sup></label>
+                                <!-- input inner -->
+                                <div class="add_forminput_inner">
+                                    <input type="number" placeholder="Enter Address" class="input_cotrol">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- submit btn -->
+                        <div class="add_formBtn_wrapper">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <!-- admintab section end -->
+        </div>
+
+    </div>
+
+    <!-- 
+    ================================
+        main admin end
+    ================================
+    -->
+
+
+    <!-- bootstrap cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- js link -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

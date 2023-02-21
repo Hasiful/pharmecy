@@ -1,0 +1,2328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BongIt Ltd </title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- 
+    ================================
+        main admin
+    ================================
+    -->
+
+    <div class="root">
+        <!-- sidebar section -->
+        <aside class="sidebar_section" id="siderbar_main">
+            <!-- content -->
+            <div class="sidebar_content">
+                <!-- logo here -->
+                <div class="sidebar_logo">
+                    <a href="./index.html" class="sidebar_logo_inner">
+                        <img src="assets/image/demologo.png" alt="">
+                    </a>
+                </div>
+                <!-- sidebar wrapper -->
+                <div class="sidebar_wrapper">
+                    <!-- sidebar nav -->
+                    <nav class="sidebar_nav">
+                        <!-- sidebar navlist -->
+                        <ul class="sidebar_navList">
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/home.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Home</span>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/management.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">User Management</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Users</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Add Users Role</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View All Users</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/customer.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Customers</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Customers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View Customers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/categories.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Categories</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Categories</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View Categories</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/medicine generic.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine Generic</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href=""> Add Medicine </a>
+                                        </li>
+
+                                        <li>
+                                            <a href=""> View Medicine </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/supplier.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine Supplier</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href=""> Add Supplier </a>
+                                        </li>
+
+                                        <li>
+                                            <a href=""> View Supplier </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/mediciine.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Medicine</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">View Medicine</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Restock Medicine</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/mdicine order.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Medicine Order</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Place Order</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Order List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Return Order</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/expire info.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Product Expire Info</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Expire within A month list</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Already Expired List</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/stocks.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Product Stock List</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Stock List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Short List</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/sales.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Sales</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">New Sales</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Sales History</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Refund History</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/invoice.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Supplier Invoice</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Supplier Invoice</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Total Supplier Invoice List</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/report.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Report</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Due Customers</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Sell & Purchase Report</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Top Sell List</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Supplier Payment Due</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Profit/Loss</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Today Sell</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Yesterday Sell</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Yearly Sell</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Custom Date Wise Sell</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <!-- nav item -->
+                            <li class="sidebar_nav_item">
+                                <!-- nav link -->
+                                <a href="#" class="sidebar_nav_link">
+                                    <!-- right content -->
+                                    <div class="sidebar_link_content">
+                                        <!-- nav link icon -->
+                                        <span class="sidebar_link_icon">
+                                            <img src="assets/image/sidebar icon/settings.png" alt="">
+                                        </span>
+                                        <!-- nav name -->
+                                        <span class="sidebar_link_text">Setting</span>
+                                    </div>
+
+                                    <!-- arrow icon -->
+                                    <span class="sidebarlink_arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="13.131" height="6.966"
+                                            viewBox="0 0 13.131 6.966">
+                                            <path id="Icon_feather-chevron-down" data-name="Icon feather-chevron-down"
+                                                d="M9,13.5l6,6,6-6" transform="translate(-8.434 -12.934)" fill="none"
+                                                stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="0.8" />
+                                        </svg>
+                                    </span>
+                                </a>
+
+                                <!-- sub nav -->
+                                <div class="sidebar_nav_sub">
+                                    <ul>
+                                        <li>
+                                            <a href="">Add Company Details</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Payment Methods</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+
+        <!-- siderbar section end -->
+        <div class="admin_main">
+            <!-- header section -->
+            <header class="header_section">
+                <div class="header_wrapper">
+                    <!-- header toggler -->
+                    <div class="toggle_nav" id="dashboard_toggle">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <!-- info -->
+                    <div class="header_info">
+                        <div class="header_notification">
+                            <span class="header_notification_icon"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                    height="22" viewBox="0 0 22 22">
+                                    <path id="Icon_material-notifications-active"
+                                        data-name="Icon material-notifications-active"
+                                        d="M9.168,5.533,7.591,3.919a11.842,11.842,0,0,0-4.546,8.856H5.252A9.582,9.582,0,0,1,9.168,5.533Zm13.67,7.243h2.207A11.914,11.914,0,0,0,20.5,3.919L18.933,5.533a9.639,9.639,0,0,1,3.906,7.243Zm-2.174.564c0-3.464-1.809-6.363-4.965-7.13V5.442a1.655,1.655,0,1,0-3.31,0v.767c-3.167.767-4.965,3.655-4.965,7.13v5.641L5.219,21.237v1.128H22.871V21.237l-2.207-2.256Zm-6.62,12.41a1.892,1.892,0,0,0,.441-.045,2.251,2.251,0,0,0,1.589-1.331,2.31,2.31,0,0,0,.165-.88H11.827A2.248,2.248,0,0,0,14.045,25.75Z"
+                                        transform="translate(-3.045 -3.75)" fill="#fff" />
+                                </svg>
+                            </span>
+                        </div>
+
+                        <!-- profile -->
+                        <div class="headerinfo_profile">
+                            <p class="headerinfo_profile_name">Admin</p>
+                            <div class="headerinfo_profile_image">
+                                <img src="assets/image/user.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- header toggoler -->
+                </div>
+            </header>
+
+            <!-- content -->
+            <div class="adminmain_content">
+
+                <!-- overview section -->
+                <div class="admin_overview section_padding">
+
+                    <!-- single card -->
+                    <div class="admin_overview_card betaBg">
+                        <div class="adimnoverview_card_content">
+                            <!-- image -->
+                            <div class="admin_overviewCard_image">
+                                <img src="assets/image/overview/11-best price.png" alt="">
+                            </div>
+                            <!-- total -->
+                            <p class="admin_overviewCard_total">26500</p>
+                            <p class="admin_overviewCard_title">Total Sales Amount</p>
+                            <!--  -->
+                        </div>
+                    </div>
+
+                    <!-- single card -->
+                    <div class="admin_overview_card pinkBg">
+                        <div class="adimnoverview_card_content">
+                            <!-- image -->
+                            <div class="admin_overviewCard_image">
+                                <img src="assets/image/overview/medicine (2).png" alt="">
+                            </div>
+                            <!-- total -->
+                            <p class="admin_overviewCard_total">2650</p>
+                            <p class="admin_overviewCard_title">Stock Medicine</p>
+                            <!--  -->
+                        </div>
+                    </div>
+
+                    <!-- single card -->
+                    <div class="admin_overview_card dgerblueColor">
+                        <div class="adimnoverview_card_content">
+                            <!-- image -->
+                            <div class="admin_overviewCard_image">
+                                <img src="assets/image/overview/out-of-stock.png" alt="">
+                            </div>
+                            <!-- total -->
+                            <p class="admin_overviewCard_total">65</p>
+                            <p class="admin_overviewCard_title">Expired Medicine</p>
+                            <!--  -->
+                        </div>
+                    </div>
+
+                    <!-- single card -->
+                    <div class="admin_overview_card orangeBg">
+                        <div class="adimnoverview_card_content">
+                            <!-- image -->
+                            <div class="admin_overviewCard_image">
+                                <img src="assets/image/overview/deadline.png" alt="">
+                            </div>
+                            <!-- total -->
+                            <p class="admin_overviewCard_total">65</p>
+                            <p class="admin_overviewCard_title">Stock out Medicine </p>
+                            <!--  -->
+                        </div>
+                    </div>
+
+                    <!-- single card -->
+                    <div class="admin_overview_card alphaBg">
+                        <div class="adimnoverview_card_content">
+                            <!-- image -->
+                            <div class="admin_overviewCard_image">
+                                <img src="assets/image/overview/out-of-stock.png" alt="">
+                            </div>
+                            <!-- total -->
+                            <p class="admin_overviewCard_total">690</p>
+                            <p class="admin_overviewCard_title">Short Medicine</p>
+                            <!--  -->
+                        </div>
+                    </div>
+
+                </div>
+                <!-- overview section end -->
+
+                <!-- admintab section -->
+                <div class="adminview_section section_padding">
+                    <!-- wrapper -->
+                    <div class="adminview_wrapper">
+
+                        <!-- tab item -->
+                        <div class="adminview_viewtab_item">
+                            <!-- header -->
+                            <div class="adminview_viewtab_header">
+                                <h1>Total Sell</h1>
+                            </div>
+                            <!-- tab item-->
+                            <div class="adminview_viewtab">
+                                <!-- btn wrapper -->
+                                <div class="adminview_viewtabBtn_wrapper nav nav-tabs" id="nav-tab">
+                                    <div class="adminview_viewtabBtn nav-link active" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Yesterday">
+                                        Yesterday
+                                    </div>
+                                    <div class="adminview_viewtabBtn nav-link" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Today">Today</div>
+                                    <div class="adminview_viewtabBtn nav-link" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Last">Last 7 days</div>
+                                    <div class="adminview_viewtabBtn nav-link" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Months">3 Months</div>
+                                </div>
+
+                                <!-- adminview_viewtabBtn_content -->
+                                <div class="adminview_viewtabcontent_wrapper tab-content">
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade show active" id="nav-Yesterday">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade" id="nav-Today">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade" id="nav-Last">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade" id="nav-Months">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- tab item -->
+                        <div class="adminview_viewtab_item">
+                            <!-- header -->
+                            <div class="adminview_viewtab_header">
+                                <h1>Total Purchase</h1>
+                            </div>
+                            <!-- tab item-->
+                            <div class="adminview_viewtab">
+                                <!-- btn wrapper -->
+                                <div class="adminview_viewtabBtn_wrapper nav nav-tabs" id="nav-tab">
+                                    <div class="adminview_viewtabBtn nav-link active" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Yesterda">
+                                        Yesterday
+                                    </div>
+                                    <div class="adminview_viewtabBtn nav-link" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Toda">Today</div>
+                                    <div class="adminview_viewtabBtn nav-link" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Las">Last 7 days</div>
+                                    <div class="adminview_viewtabBtn nav-link" data-bs-toggle="tab"
+                                        data-bs-target="#nav-Month">3 Months</div>
+                                </div>
+
+                                <!-- adminview_viewtabBtn_content -->
+                                <div class="adminview_viewtabcontent_wrapper tab-content">
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade show active" id="nav-Yesterda">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade" id="nav-Toda">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade" id="nav-Las">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- tab content -->
+                                    <div class="adminview_viewtabcontent tab-pane fade" id="nav-Month">
+                                        <ul>
+                                            <li>
+                                                <span class="greenColor">Total Invoice</span>
+                                                <span class="greenColor">24</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="orangeColor">Sold Amount</span>
+                                                <span class="orangeColor">4000</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="mainColor">Received Amount</span>
+                                                <span class="mainColor">400</span>
+                                            </li>
+
+                                            <li>
+                                                <span class="blackColor">Due Amount</span>
+                                                <span class="blackColor">0.00</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Generic item -->
+                        <div class="generic_view">
+                            <div class="generic_viewcontent">
+
+                                <h1 class="generic_view_title">Total Medicine List(Generic Wise)</h1>
+
+                                <div class="generic_viewWrapper">
+                                    <!-- dropdown -->
+                                    <div class="generic_view_dropdown">
+                                        <!-- dropdown btn -->
+                                        <div class="generic_viewBtn_inner">
+                                            <button class="generic_viewBtn" id="generic_viewBtn">
+                                                <span>Generic</span>
+                                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                                            </button>
+                                        </div>
+                                        <!-- veiw dropdown -->
+                                        <div class="generic_viewdropdown_list" id="genericDropdown_view">
+                                            <!-- search input -->
+                                            <input type="text" placeholder="Search Generic Name"
+                                                id="search_genericInput" class="search_genericInput">
+                                            <!-- generic list -->
+                                            <ul id="search_genericList" class="nav">
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>Paracetamol</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>phenoxymethylpenicillin</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>ampicillin</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>amoxicillin</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>flucloxacillin</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>hasif</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>billal</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>rana saha</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+                                                <!-- item -->
+                                                <li class="" data-bs-toggle="pill" data-bs-target="#v-pills-home">
+                                                    <span>Priad</span>
+                                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- generic_viewtab -->
+                                    <div class="generic_viewtab tab-content">
+                                        <!-- item -->
+                                        <div class="generic_viewtab_item tab-pane fade show" id="v-pills-home">
+                                            <!-- table -->
+                                            <div class="generic_viewtabItem_table">
+                                                <table>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Medicine Name</th>
+                                                            <th>Generic</th>
+                                                            <th>Company Name</th>
+                                                            <th>Buying Price</th>
+                                                            <th>Selling Price</th>
+                                                            <th>Stocklist</th>
+                                                            <th>Total Sell</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                        <!-- row -->
+                                                        <tr>
+                                                            <td>Napa</td>
+                                                            <td>Paracetamol</td>
+                                                            <td>Square</td>
+                                                            <td><span>2</span><span>Taka</span></td>
+                                                            <td><span>4</span><span>Taka</span></td>
+                                                            <td>400</td>
+                                                            <td>5000</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Supplier details -->
+                <div class="Supplier_details section_padding">
+                    <!-- content -->
+                    <div class="Supplier_details_content">
+                        <!-- section heading -->
+                        <div class="section_heading">
+                            <h1 class="section_headingText">Supplier Details(Top Supplier)</h1>
+                        </div>
+
+                        <!-- wrapper -->
+                        <div class="SupplierDetails_wrapper">
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card dgerblueColor">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button" data-bs-toggle="modal"
+                                                    data-bs-target="#staticBackdrop">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button" data-bs-toggle="modal"
+                                                    data-bs-target="#staticBackdrop">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card orangeBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card alphaBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card pinkBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card betaBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card greyBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card orangeBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card alphaBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card betaBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card dgerblueColor">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card pinkBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- single card -->
+                            <div class="SupplierDetails_card betaBg">
+                                <!-- wrapper -->
+                                <div class="SupplierDetails_card_wrapper">
+                                    <!-- content -->
+                                    <div class="SupplierDetails_card_content">
+                                        <!-- cmpany name -->
+                                        <h3 class="SupplierDetails_card_CompName">Square Pharmaceucal</h3>
+                                        <p class="supplierDetails_card_selalName">Mr. Akib Alam</p>
+                                        <p class="supplierDetails_card_number">01782998680</p>
+                                    </div>
+                                    <div class="SupplierDetails_card_footer">
+                                        <div class="SupplierDetails_cardBtn_wraqpper">
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn mainBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 19 10">
+                                                            <g id="Group_1201" data-name="Group 1201"
+                                                                transform="translate(-7 -6)">
+                                                                <path id="Path_126" data-name="Path 126"
+                                                                    d="M22.864,22.224C22.61,22.031,16.613,17.5,13.5,17.5s-9.11,4.531-9.364,4.724a.348.348,0,0,0,0,.552c.254.193,6.251,4.724,9.364,4.724s9.11-4.531,9.364-4.724a.348.348,0,0,0,0-.552ZM13.5,26.81c-2.469,0-7.219-3.319-8.584-4.31,1.364-.992,6.114-4.31,8.584-4.31s7.219,3.319,8.584,4.31C20.719,23.492,15.969,26.81,13.5,26.81Z"
+                                                                    transform="translate(3 -11.5)" fill="#fff" />
+                                                                <path id="Path_127" data-name="Path 127"
+                                                                    d="M25.375,27.659a2.248,2.248,0,1,0,2.248-2.284A2.266,2.266,0,0,0,25.375,27.659Zm3.817,0a1.569,1.569,0,1,1-1.569-1.595,1.582,1.582,0,0,1,1.569,1.595Z"
+                                                                    transform="translate(-11.123 -16.659)"
+                                                                    fill="#fff" />
+                                                                <path id="Path_128" data-name="Path 128"
+                                                                    d="M20.313,24.343a3.966,3.966,0,1,0,3.965-4.03A4,4,0,0,0,20.313,24.343Zm7.252,0A3.287,3.287,0,1,1,24.278,21a3.314,3.314,0,0,1,3.287,3.341Z"
+                                                                    transform="translate(-7.778 -13.343)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn greenBg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 10.075 10">
+                                                            <g id="Icon" transform="translate(-1.25 -1.737)">
+                                                                <path id="Path_129" data-name="Path 129"
+                                                                    d="M18.242,14.161a.832.832,0,0,0-.4-1.107l-1.02-.475a.833.833,0,0,0-1.106.4l-1.039,2.228a.834.834,0,0,0-.043.59l.4,1.324a.357.357,0,0,0,.484.225l1.269-.548a.833.833,0,0,0,.425-.413Zm-.647-.3-1.039,2.228a.119.119,0,0,1-.061.059l-.9.389-.281-.939a.122.122,0,0,1,.006-.084l1.039-2.228a.12.12,0,0,1,.067-.061.117.117,0,0,1,.091,0l1.019.475a.12.12,0,0,1,.058.158Z"
+                                                                    transform="translate(-6.995 -5.641)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_130" data-name="Path 130"
+                                                                    d="M7.08,17H2.059a.1.1,0,0,1-.1-.1v-.69a1.351,1.351,0,0,1,.717-1.04,6.357,6.357,0,0,1,3.447-.864,8.413,8.413,0,0,1,1.142.076.357.357,0,0,0,.1-.708A9.184,9.184,0,0,0,6.128,13.6a7.082,7.082,0,0,0-3.85.988A2.037,2.037,0,0,0,1.25,16.217v.69a.809.809,0,0,0,.809.809H7.08a.357.357,0,1,0,0-.714Z"
+                                                                    transform="translate(0 -6.217)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                                <path id="Path_131" data-name="Path 131"
+                                                                    d="M8.617,1.737a2.617,2.617,0,1,0,2.617,2.617A2.619,2.619,0,0,0,8.617,1.737Zm0,.714a1.9,1.9,0,1,1-1.9,1.9,1.9,1.9,0,0,1,1.9-1.9Z"
+                                                                    transform="translate(-2.489)" fill="#fff"
+                                                                    fill-rule="evenodd" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <!-- btn -->
+                                            <div class="SupplierDetails_cardBtn redbg">
+                                                <button type="button">
+                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="10"
+                                                            viewBox="0 0 9 10">
+                                                            <g id="trash-can" transform="translate(-0.836 -0.248)">
+                                                                <path id="Path_132" data-name="Path 132"
+                                                                    d="M9.621,2c-.8-.081-1.612-.147-2.418-.191l-.08-.506C7.05.834,6.961.248,5.954.248H4.713c-1.259.03-1.082.794-1.245,1.538-.76.035-1.66.138-2.422.218a.255.255,0,0,0,.047.507A34.7,34.7,0,0,1,8.43,2.4l-.4,6.161c-.051.782-.077,1.174-1.179,1.174H3.812c-1.1,0-1.128-.392-1.179-1.172l-.308-5.09a.245.245,0,0,0-.254-.237.25.25,0,0,0-.222.271L2.157,8.6c.053.809.108,1.647,1.654,1.647H6.853c1.546,0,1.6-.837,1.654-1.647l.4-6.154c.272-.031.856.248.929-.16A.251.251,0,0,0,9.621,2Zm-4.77-.254c-.3,0-.6.007-.9.017C4.078,1.2,3.927.719,4.713.756H5.955c.793-.035.638.484.762,1.036C6.092,1.766,5.468,1.749,4.851,1.749Z"
+                                                                    transform="translate(0)" fill="#fff" />
+                                                                <path id="Path_133" data-name="Path 133"
+                                                                    d="M11.211,15.994a.247.247,0,0,0,.238-.268l-.181-3.279a.239.239,0,1,0-.477.03l.18,3.278A.245.245,0,0,0,11.211,15.994Z"
+                                                                    transform="translate(-6.792 -7.908)" fill="#fff" />
+                                                                <path id="Path_134" data-name="Path 134"
+                                                                    d="M17.6,15.757l.18-3.277a.238.238,0,1,0-.474-.037s-.18,3.282-.181,3.284A.239.239,0,1,0,17.6,15.757Z"
+                                                                    transform="translate(-11.111 -7.911)" fill="#fff" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Supplier details end -->
+
+                <!-- test modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- admintab section end -->
+        </div>
+    </div>
+
+    <!-- 
+    ================================
+        main admin end
+    ================================
+    -->
+    
+    <!-- bootstrap cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- js link -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

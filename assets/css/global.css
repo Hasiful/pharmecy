@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+a {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.section_padding {
+    padding: 10px 0px;
+}
+
+:root {
+    --primaryColor: rgba(226, 229, 230, 0.68);
+    --mainColor: #1370B2;
+    --globalColor: #FFFFFF;
+    --bgColor: rgba(19, 112, 178, 0.22);
+    --textColor: #3A3333;
+    --transition: 0.3s all linear;
+}
+
+/* bg */
+.alphaBg {
+    background: #8483E3;
+}
+
+.mainBg {
+    background: var(--mainColor);
+}
+
+.greenBg {
+    background: #198724;
+}
+
+.redbg {
+    background: #FC5338;
+}
+
+.pinkBg {
+    background: #FE8D7B;
+}
+
+.orangeBg {
+    background: #FDCE52;
+}
+
+.betaBg {
+    background: #7BF0E0;
+}
+
+.dgerblueColor {
+    background: #3FAFFF;
+}
+
+.greyBg {
+    background: #BED6E6;
+}
+
+/* color */
+.greenColor {
+    color: #198724;
+}
+
+.orangeColor {
+    color: #FCA311;
+}
+
+.mainColor {
+    color: #1370B2;
+}
+
+.blackColor {
+    color: #3A3333;
+}
+
+/* all scroll bar */
+
+.sidebar_wrapper::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Handle */
+.sidebar_wrapper::-webkit-scrollbar-thumb {
+    background: rgb(0 0 0 / 40%);
+    border-radius: 10px;
+}
+
+/* toglle nav */
+
+.toggle_nav {
+    height: 17px;
+    width: 30px;
+    position: relative;
+    display: block;
+    z-index: 1026;
+}
+
+.toggle_nav ul {
+    height: 100%;
+    width: 100%;
+}
+
+.toggle_nav ul li {
+    height: 2px;
+    width: 100%;
+    background-color: var(--globalColor);
+    position: absolute;
+    transition: var(--transition);
+    opacity: 1;
+}
+
+.toggle_nav ul li:first-child {
+    top: 0px;
+    left: 0px;
+}
+
+.activeToggle li:first-child {
+    transform: rotate(45deg);
+    top: 50% !important;
+}
+
+.toggle_nav ul li:nth-child(2) {
+    top: 49%;
+    left: 0px;
+    opacity: 1;
+}
+
+.activeToggle li:nth-child(2) {
+    visibility: hidden;
+    opacity: 0 !important;
+}
+
+.toggle_nav ul li:last-child {
+    top: 98%;
+    left: 0px;
+}
+
+.activeToggle li:last-child {
+    transform: rotate(-45deg);
+    top: 50% !important;
+}
